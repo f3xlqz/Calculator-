@@ -59,3 +59,4 @@ button = customtkinter.CTkButton(app, text="ค้นหาคำตอบ", com
 button.pack(pady=(10, 0))
 
 app.mainloop()
+#ffff
