@@ -26,7 +26,7 @@ import math
 def button_event():
     user_input = entry2.get()
     radius = float(user_input)
-    area = math.pi * (radius*2)
+    area = math.pi * (radius**2)
     answer_text.set(area)
     print("Radius", area)
     print("Area", area)
@@ -59,4 +59,3 @@ button = customtkinter.CTkButton(app, text="ค้นหาคำตอบ", com
 button.pack(pady=(10, 0))
 
 app.mainloop()
-#ffff
